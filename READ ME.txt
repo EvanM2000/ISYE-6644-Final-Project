@@ -1,9 +1,1 @@
-Analysis.ipynb was where certain tests were conducted, in particular using SciPy, Pandas, and with slight references to other works as the types of tests being conducted are well documented across multiple sites.
 
-Joker.PY is the python file where Joker related logic was created & stored
-
-Game_state.py the primary mechanism and structure of the simulation, including defining logic for how a blind, game, and hand were to be scored and advanced through the simulation
-
-simulation.py the simulation file where specific variables of interest were collected and aggregated, and the simulation was run. Further, this file had most of the print statements that were in part crafted by claude to help test if the simulation was performing as expected before further analysis. Mainly, issues with the RTB booleon passing and working to control the simulation had to be worked out. As it turns out, it was a problem with file naming, nothing to do with the code.
-
- 
