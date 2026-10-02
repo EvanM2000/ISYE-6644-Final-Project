@@ -18,13 +18,13 @@ A variety of comparison tests were run on the data sets produced by each simulat
 | File | Description |
 |---|---|
 | `Game_state.py` | The primary mechanism & structure of the simulation, including the logic for how a blind, game, and hand are scored and advanced |
-| `Joker.py` | Where all Joker-related logic is created & stored |
+| `joker.py` | Where all Joker-related logic is created & stored |
 | `simulation.py` | Runs the simulation and collects & aggregates the variables of interest |
-| `Analysis.ipynb` | Statistical comparison tests on the simulation results, using SciPy & Pandas |
+| `analysis.ipynb` | Statistical comparison tests on the simulation results, using SciPy & Pandas |
 
 ## Notes
-
+- This was one of my first real in-depth python projects, and this was quite difficult for me. Although the code is messy, everyone has to start somewhere! 
 - The statistical tests in `Analysis.ipynb` are standard and well documented, so I referenced a few outside sources for how to set them up.
 - Most of the print statements in `simulation.py` were written in part with Claude to check that the simulation behaved as expected before running the analysis. The main issue was getting the RTB boolean to pass through correctly and control the simulation. As it turns out, the problem was file naming, not the code itself.
 
-**Tools:** Python, SciPy, Pandas, Jupyter
+**Tools:** Python, SciPy, Pandas, Jupyter, Claude was partly used to help debug certain issues. 
