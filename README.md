@@ -17,7 +17,7 @@ A variety of comparison tests were run on the data sets produced by each simulat
 
 | File | Description |
 |---|---|
-| `Game_state.py` | The primary mechanism & structure of the simulation, including the logic for how a blind, game, and hand are scored and advanced |
+| `game_state.py` | The primary mechanism & structure of the simulation, including the logic for how a blind, game, and hand are scored and advanced |
 | `joker.py` | Where all Joker-related logic is created & stored |
 | `simulation.py` | Runs the simulation and collects & aggregates the variables of interest |
 | `analysis.ipynb` | Statistical comparison tests on the simulation results, using SciPy & Pandas |
